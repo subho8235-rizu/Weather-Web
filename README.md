@@ -27,3 +27,7 @@ A real-time weather application that fetches data using the OpenWeather API.
 1. Clone the repository
 2. Open index.html in your browser
 
+## Live Demo
+
+🔗 [Live Weather App](https://subho8235-rizu.github.io/Weather-Web/)
+
