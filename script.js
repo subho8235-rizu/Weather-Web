@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click", async function() {
             document.getElementById("result").innerHTML="Please Enter City name";
             return;
     }
-    const apiKey="aad7e2161338d04237534400fbf56558"
+    const apiKey="3b4518ade27468df3c2ce5912ace8862"
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     const response=await fetch(url);
     if(response.status === 404){
